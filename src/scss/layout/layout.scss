@@ -1,0 +1,70 @@
+// Nav Layout
+.nav-top {
+  padding: 36px 50px;
+  background-color: $white-color;
+
+  .nav-left {
+    @include gap(0, 50px);
+
+    .nav-menu-list {
+      @include gap(0, 50px);
+
+      .nav-menu-item {
+        color: $black-color;
+        position: relative;
+      }
+    }
+
+    .nav-menu-dropdown {
+      position: absolute;
+      border-radius: 4px;
+      box-shadow: 0 -2px 8px -2px rgba(21, 60, 245, 0.1),
+        0 18px 20px rgba(5, 21, 46, 0.06),
+        0 30px 40px -17px rgba(21, 60, 245, 0.11);
+      transition: all 0.3s;
+      background-color: $white-color;
+      width: 380px;
+    }
+
+    .menu-dropdown-list {
+      .line-border {
+        position: relative;
+
+        &:after {
+          background: $neutral-100;
+          bottom: -6px;
+          content: "";
+          height: 1px;
+          left: 0;
+          position: absolute;
+          width: 100%;
+        }
+      }
+
+      .menu-dropdown-link {
+        @include gap(0, 10px);
+
+        background-color: $blue-secondary-color;
+        border-radius: 4px;
+        margin: 10px 0;
+        padding: 0 15px;
+      }
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      .menu-dropdown-item {
+        color: $black-color;
+        min-width: 320px;
+        padding: 15px 12px;
+
+        &:hover {
+          color: $blue-primary-color;
+        }
+      }
+    }
+  }
+
+  .nav-right {
+    gap: 0 24px;
+  }
+}

@@ -1,0 +1,51 @@
+/*Font Family define*/
+@font-face {
+  font-family: "Quicksand REGULAR";
+  src: url("@/assets/font/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand MEDIUM";
+  src: url("@/assets/font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand BOLD";
+  src: url("@/assets/font/Quicksand-Bold.ttf");
+}
+
+$job-font-regular: "Quicksand REGULAR";
+$job-font-medium: "Quicksand MEDIUM";
+$job-font-bold: "Quicksand BOLD";
+
+/* Color define*/
+$bg-white-color: rgba(255, 255, 255);
+
+$black-color: #1e293b;
+
+$gray-color: #94a3b8;
+
+$blue-primary-color: #1f86ef;
+
+$blue-primary-hovered: #0423b2;
+
+$blue-secondary-color: rgba(21, 60, 245, 0.02);
+
+$border-gray-color: #f1f5f9;
+
+$white-color: #fff;
+
+$featured-color: #ffc225;
+
+$neutral-600: #1d2b3f;
+$neutral-400: #858c95;
+$neutral-300: #ced3d9;
+$neutral-200: #e5e5ef;
+$neutral-100: #f7f7fb;
+
+$neutral-500: #47505c;
+$neutral-700: #05152e;
+
+$secondary-1: #0423b2;
+
+$dark-color-hovered: #161f29;
